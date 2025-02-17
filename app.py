@@ -37,7 +37,7 @@ def add_post():
         conn.commit()
         conn.close()
         return redirect(url_for('index'))
-    return render_template('add_post.html')
+    return render_template('create.html')
 
 if __name__ == "__main__":
     init_db()  # Initialize the database

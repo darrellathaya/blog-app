@@ -5,7 +5,8 @@
         ├── instance/
         │   └── blog.db
         ├── templates/
-        │   └── (HTML files)
+        │   └── index.html
+        |   └── create.html
         └── Dockerfile
 
 # 2. Flask-App Container
